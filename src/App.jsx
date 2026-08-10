@@ -51,8 +51,8 @@ function App() {
   return (
     <>
       <InputBtn title="please write sth and click btn and see cosole:" />
-      <ProductsList items={products} />
-      <UserList items={users} />
+      <ProductsList items={products} title="products list: " />
+      <UserList items={users}  />
     </>
   );
 }
